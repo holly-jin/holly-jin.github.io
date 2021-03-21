@@ -1,0 +1,65 @@
+
+/* General Setting */
+
+a{
+    color:black;
+    font-weight:500;
+}
+
+a:hover, a:focus{
+    color:#0096FF;
+}
+
+a:visited{
+    color:rgb(50,50,50);
+}
+
+/* Nav Menu */
+.text-header{
+    font-family:'Roboto', sans-serif;
+    font-weight:600;
+    font-size:1.75em;
+    letter-spacing: 8px
+}
+
+.text-nav{
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    letter-spacing: 1px
+}
+
+/* Page - About */
+.text-about{
+    font-family:'Helvetica',sans-serif;
+    font-weight:lighter;
+    margin-top: 80px;
+
+}
+
+/* Page - Index */
+.text-index-intro{
+    font-family:'Roboto',sans-serif;
+    color:rgb(80,80,80);
+    font-size:1.2em;
+    font-weight:300;
+    line-height:1.5em;
+    margin-top: 3rem;
+    margin-bottom:5rem;
+
+}
+
+
+.beep img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+}
+
+/* Page - projects/design */
+.project-cover img{
+    width: 100%;
+    height:60%;
+    object-fit:cover
+}

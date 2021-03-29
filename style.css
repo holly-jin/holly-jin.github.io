@@ -1,6 +1,10 @@
 
 /* General Setting */
 
+html{
+    font-family:'Roboto',sans-serif;
+}
+
 a{
     color:black;
     font-weight:500;
@@ -12,6 +16,14 @@ a:hover, a:focus{
 
 a:visited{
     color:rgb(50,50,50);
+}
+
+h2{
+    font-weight:400;
+}
+
+.text-emphasize{
+    font-weight:600;
 }
 
 /* Nav Menu */
@@ -57,9 +69,51 @@ a:visited{
     object-fit: cover;
 }
 
+.projectThumbnail{
+    border:2px coral;
+}
+
+.thumbnail-overlay:hover{
+    background-color:rgba(226, 226, 226, 0.7);
+    color:rgb(50,50,50);
+}
+
+.thumbnail-overlay{
+    position:absolute; 
+    background-color:rgba(100,100,100,0)k; 
+    top:0; 
+    bottom:0; 
+    left:0; 
+    right:0;
+    color:rgba(50,50,50,0);
+    font-size:1.5em;
+    font-weight:300;
+    text-align:center;
+    padding-top:30%;
+}
+
+
+
 /* Page - projects/design */
 .project-cover img{
     width: 100%;
     height:60%;
     object-fit:cover
+}
+
+p{
+    font-weight:300;
+    font-size:0.95em;
+    color:rgb(50,50,50);
+}
+
+.p_larger{
+    color:black;
+    font-weight:300;
+    font-size:1.5em;
+    font-style: italic;
+}
+
+.project_title_annotate{
+    color:rgb(100,100,100);
 }

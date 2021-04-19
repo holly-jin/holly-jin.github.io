@@ -92,7 +92,6 @@ blockquote{
     object-position: center;
     width: 100%;
     height: 20%;
-    object-fit: cover;
 }
 
 .projectThumbnail{
@@ -117,7 +116,7 @@ blockquote{
 }
 
 .thumbnail-overlay:hover{
-    background-color:rgba(41, 54, 77, 0.7);
+    background-color:rgba(117, 125, 138, 0.7);
     color:rgb(233, 233, 233);
 }
 
@@ -159,3 +158,38 @@ a-scene {
     height: 100%;
     width: 100%;
   }
+
+
+/* Page - blog */
+
+.blog img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:250px;
+}
+
+.blog h4{
+    font-size:0.9em;
+    font-weight:600;
+    color:rgb(71, 71, 71);
+}
+
+
+.blog a{
+    display:block;
+    font-size:1.6em;
+    font-weight:600;
+    margin-top:1em;
+    margin-bottom:1em;
+    text-decoration: none;
+}
+
+.blog p{
+    font-size:0.9em;
+}
+
+.topics{
+    font-size:0.9em;
+    line-height:1.5em;
+}

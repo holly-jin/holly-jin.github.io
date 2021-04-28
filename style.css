@@ -59,6 +59,10 @@ button:after, button:active{
 }
 
 
+.navbar-light .navbar-toggler {
+    color: transparent;
+}
+
 /* Nav Menu */
 .text-header{
     font-family:'Roboto', sans-serif;
@@ -89,10 +93,20 @@ button:after, button:active{
     font-weight:300;
     line-height:1.8em;
     margin-top: 4em;
-    margin-bottom:5em;
+    margin-bottom:3em;
 
 }
 
+.text-index-headline{
+    font-size:3em;
+    font-weight:500;
+    color:rgb(19, 19, 19);
+    margin-bottom:1em;
+    text-decoration: underline;
+    text-decoration-color: rgb(153, 204, 34);
+    text-decoration-thickness: 0.18em;
+    text-underline-offset:0.1em;
+}
 
 .beep img {
     object-fit: cover;
@@ -129,7 +143,7 @@ button:after, button:active{
 
 .project_list a{
     color:rgb(167, 167, 167);
-    font-size:1.3em;
+    font-size:1.2em;
     transition-property:color;
     transition-duration:0.5s;
 }

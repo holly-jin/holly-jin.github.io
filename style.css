@@ -50,6 +50,13 @@ blockquote{
     font-weight:600;
 }
 
+.text-link{
+    font-weight:500;
+    color:black;
+    text-decoration: underline;
+}
+
+
 button{
     border:none !important;
 }
@@ -71,11 +78,6 @@ button:after, button:active{
     letter-spacing: 8px;
 }
 
-.text-nav{
-    font-family:'Roboto', sans-serif;
-    font-weight:400;
-    letter-spacing: 1px
-}
 
 /* Page - About */
 .text-about{
